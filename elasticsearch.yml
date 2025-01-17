@@ -1,0 +1,26 @@
+cluster.name: my-application
+node.name: node-1
+
+path.data: C:/Users/Onurcan/Documents/Projects/leak_manager/data
+path.logs: C:/Users/Onurcan/Documents/Projects/leak_manager/logs
+
+bootstrap.memory_lock: false
+
+network.host: 127.0.0.1
+http.port: 9200
+
+discovery.seed_hosts: ["127.0.0.1"]
+cluster.initial_master_nodes: ["node-1"]
+
+
+xpack.security.enrollment.enabled: false
+xpack.ml.enabled: false
+
+xpack.security.enabled: false
+xpack.security.transport.ssl.enabled: false
+xpack.security.http.ssl.enabled: false
+
+# xpack.security.transport.ssl.keystore.path: certs/transport.p12
+# xpack.security.transport.ssl.keystore.secure_password: your_keystore_password
+# xpack.security.transport.ssl.truststore.path: certs/transport.p12
+# xpack.security.transport.ssl.truststore.secure_password: your_truststore_password
