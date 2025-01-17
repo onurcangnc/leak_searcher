@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Telegram Bot Token (Çevresel Değişkenlerden Alınması Güvenlik İçin Önerilir)
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7368855657:AAHwY8hmzNOyxd_TsDTb1Gy8WT4Qw-b77VA")  # Güvenlik nedeniyle tokenınızı gizli tutun
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")  # Güvenlik nedeniyle tokenınızı gizli tutun
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Elasticsearch Manager
