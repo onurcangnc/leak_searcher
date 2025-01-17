@@ -5,9 +5,21 @@ Leak Manager Bot is a Telegram bot designed to interact with Elasticsearch to se
 ## Features
 
 - **Authorization**: Only authorized users can access the bot's functionality.
+
+![Authorize](./assets/authorize.png)
+
 - **Search Across Multiple Indices**: The bot supports searching across all Elasticsearch indices (`*` wildcard).
+
+![alt text](./assets/authorize/listleaks.png)
+
 - **Scroll API Integration**: Handles large datasets by utilizing Elasticsearch's Scroll API.
+
+![alt text](./assets/authorize/general.png)
+
 - **Result Export**: Saves matched results to a `.txt` file and sends it to users via Telegram.
+
+![alt text](./assets/authorize/search.png)
+
 - **Command Help**: Lists all available commands for ease of use.
 
 ## Commands
