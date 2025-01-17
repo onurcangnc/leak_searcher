@@ -1,6 +1,8 @@
-# Leak Manager Bot
+# Leak Searcher Bot
 
-Leak Manager Bot is a Telegram bot designed to interact with Elasticsearch to search, retrieve, and manage leaked data efficiently. The bot provides features for querying Elasticsearch indices, retrieving matched results, and sending the results to authorized users in a readable format.
+![elastic](./assets/elastic.png)
+
+Leak Searcher is a Telegram bot designed to interact with Elasticsearch to search, retrieve, and manage leaked data efficiently. The bot provides features for querying Elasticsearch indices, retrieving matched results, and sending the results to authorized users in a readable format.
 
 ## Features
 
