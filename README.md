@@ -1,5 +1,10 @@
 # Leak Searcher Bot
 
+Example run:
+
+[![YouTube Link](http://img.youtube.com/vi/pyetHSV5Wn8/0.jpg)](https://www.youtube.com/watch?v=pyetHSV5Wn8&t=397s)
+
+
 ![elastic](./assets/elastic.png)
 
 Leak Searcher is a Telegram bot designed to interact with Elasticsearch to search, retrieve, and manage leaked data efficiently. The bot provides features for querying Elasticsearch indices, retrieving matched results, and sending the results to authorized users in a readable format.
