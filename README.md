@@ -1,3 +1,18 @@
+## ⚠️ Disclaimer — Threat Intelligence & Incident Response
+
+This tool is designed for **security researchers**, **SOC analysts**, and **incident response teams** to search and analyze publicly exposed data breaches for **defensive purposes** — including credential monitoring, breach notification, and exposure assessment.
+
+**This tool is NOT intended for:**
+- Identity theft, fraud, or unauthorized access to personal accounts
+- Doxxing, stalking, or harassment of individuals
+- Selling or redistributing breached data
+
+**Legal obligations:** Processing leaked personal data carries responsibilities under data protection regulations including **GDPR** (EU), **KVKK** (Turkey), and **CCPA** (California). Users must ensure their use of this tool falls within an authorized threat intelligence or incident response workflow.
+
+The author assumes no liability for misuse or violations of applicable data protection laws.
+
+---
+
 # Leak Searcher Bot
 
 Example run:
